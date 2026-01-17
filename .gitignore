@@ -1,0 +1,54 @@
+# --- Compiled Binaries & Object Files ---
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.exe
+*.out
+*.lib
+*.a
+
+# --- Build Directories ---
+build/
+bin/
+out/
+dist/
+[Bb]uild/
+
+# --- IDE & Editor Specific ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vs/
+*.user
+*.suo
+
+# --- CAD & Mechanical Exports ---
+# Ignore temporary backup files or local caches from CAD software
+*.log
+*.err
+*.bak
+*.$$$
+*.tmp
+
+# --- Simulation & Data Analysis ---
+# Ignore large data logs or simulation artifacts
+*.mat
+*.slxc
+*.mex*
+slprj/
+*.log
+*.csv
+
+# --- Operating System Clutter ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Environment & Hidden Files ---
+.env
+*.local
