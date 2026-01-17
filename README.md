@@ -1,4 +1,8 @@
-#  NRC 2026: Micromouse Challenge   
+<p align="left">
+  <img src="/.assets/images/rat-spinning.gif" width="50">
+</p>
+
+# NRC 2026: Micromouse Challenge   
 > **The official SIUE Automous Robotics Club Github repostiory for the 2026 NRC Micromouse Competition**
 
 [![Competition](https://img.shields.io/badge/Competition-NRC_2026-red)](https://irp.cdn-website.com/9297868f/files/uploaded/NRCContestRules2026.pdf)
@@ -6,9 +10,7 @@
 [![Language](https://img.shields.io/badge/Language-C++-green)](https://www.w3schools.com/cpp/default.asp)
 [![License](https://img.shields.io/badge/Danger-!!!-purple)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
-<p align="center">
-  <img src="/.assets/images/rat-spinning.gif" width="50">
-</p>
+
 
 ---
 
