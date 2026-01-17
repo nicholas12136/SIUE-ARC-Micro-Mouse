@@ -22,7 +22,7 @@ Our team is developing an autonomous "Mouse" to compete in the **National Roboti
 * **Finish Line:** Goal is to end up in the four-tile room int the middle.
 
 ![Micromouse Design Diagram](./Assets/images/NRC_maze_example.png)
-
+> *Example maze provided in 2026 NRC Contest Manual.*
 ---
 
 ## 📂 Repository Structure
