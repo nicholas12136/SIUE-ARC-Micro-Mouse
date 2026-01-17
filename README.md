@@ -9,6 +9,9 @@
         The official SIUE Autonomous Robotics Club GitHub repository for the 2026 NRC Micromouse Competition
       </blockquote>
     </td>
+    <td valign="center">
+      <img src=".assets/images/siue-arc-logo.jpg" width="100">
+    </td>
   </tr>
 </table>
 
@@ -34,7 +37,7 @@ Our team is developing an autonomous "Mouse" to compete in the **National Roboti
 * **Scoring:** Based on the fastest run + search time penalties.
 * **Wall Hugging:** It is explicitly mentioned in the rules that steps will be taken to diminish this searching algorithm. 
 * **Staring Place:** Mouse will always start in one of the four corners.
-* **Finish Line:** Goal is to end up in the four-tile room int the middle.
+* **Finish Line:** Goal is to end up in the four-tile room in the middle.
 
 ![Micromouse Design Diagram](./.assets/images/NRC_maze_example.png)
 > *Example maze provided in 2026 NRC Contest Manual.*
@@ -49,7 +52,7 @@ Our team is developing an autonomous "Mouse" to compete in the **National Roboti
 | 🏗️ | [`/hardware`](./hardware) | CAD & PCB Schematics. |
 | 📊 | [`/simulations`](./simulations) | Logic testing environments. |
 | 📋 | [`/doc`](./doc) | NRC Rules & Engineering Notebook. |
-| ☁️ | **[OneDrive Hub]** | [**Click here for OneDrive**](https://siuecougars-my.sharepoint.com/:f:/r/personal/ngarmon_siue_edu/Documents/ARC/Micro%20Mouse?csf=1&web=1&e=Olx0Ui) |
+| 🪟 | **[OneDrive Hub]** | [**Click here for OneDrive**](https://siuecougars-my.sharepoint.com/:f:/r/personal/ngarmon_siue_edu/Documents/ARC/Micro%20Mouse?csf=1&web=1&e=Olx0Ui) |
 
 ---
 
