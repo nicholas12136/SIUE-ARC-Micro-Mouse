@@ -1,7 +1,7 @@
 # 🐭 NRC 2026: Micromouse Challenge
 > **Official Repository for the Robotics Club Maze-Solving Project**
 
-![Competition](https://img.shields.io/badge/Competition-NRC_2026-red)[(https://irp.cdn-website.com/9297868f/files/uploaded/NRCContestRules2026.pdf)]
+![Competition][(https://img.shields.io/badge/Competition-NRC_2026-red)(https://irp.cdn-website.com/9297868f/files/uploaded/NRCContestRules2026.pdf)]
 ![Platform](https://img.shields.io/badge/Platform-ESP32-blue)
 ![Language](https://img.shields.io/badge/Language-C++-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
