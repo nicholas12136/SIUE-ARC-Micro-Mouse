@@ -34,7 +34,7 @@ Our team is developing an autonomous "Mouse" to compete in the **National Roboti
 ## 🛠️ Tech Stack
 * **Microcontroller:** ESP32.
 * **Sensors:** To Be Determined.
-* **Actuators:** To BE Determined.
+* **Actuators:** To Be Determined.
 * **Design:** Custom 3D printed chassis.
 
 ---
@@ -42,8 +42,8 @@ Our team is developing an autonomous "Mouse" to compete in the **National Roboti
 ## 🧠 Navigation Progress
 We are currently iterating on two main logic paths:
 
-- [/] **Flood Fill:** - Works by "pouring water" from the goal to the start, assigning distance values to cells. The mouse then moves toward lower-value cells, effectively calculating the shortest path.
-- [/] **Depth Search:** - Explores as far as possible along each branch before backtracking. It is "blind" to the shortest path until it has explored all options.
+-  **Flood Fill:** - Works by "pouring water" from the goal to the start, assigning distance values to cells. The mouse then moves toward lower-value cells, effectively calculating the shortest path.
+-  **Depth Search:** - Explores as far as possible along each branch before backtracking. It is "blind" to the shortest path until it has explored all options.
 
 ---
 
