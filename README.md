@@ -34,10 +34,12 @@ Our team is developing an autonomous "Mouse" to compete in the **National Roboti
 * **Maze Size:** $10 \times 10$ of $10" \times 10"$ tiles.
 * **Time:** 10-minute total run time.
 * **Autonomy:** No external communication once the maze layout is disclosed.
+* **Orifices:** Multiple paths to the destination square are allowed and are to be expected.
 * **Scoring:** Based on the fastest run + search time penalties.
 * **Wall Hugging:** It is explicitly mentioned in the rules that steps will be taken to diminish this searching algorithm. 
 * **Staring Place:** Mouse will always start in one of the four corners.
 * **Finish Line:** Goal is to end up in the four-tile room in the middle.
+* **Winner Winner Chicken Dinner:** The minimum run time shall be the robot's official time. 
 
 ![Micromouse Design Diagram](./.assets/images/NRC_maze_example.png)
 > *Example maze provided in 2026 NRC Contest Manual.*
