@@ -1,9 +1,9 @@
 <p align="left">
-  <img src="/.assets/images/rat-spinning.gif" width="50">
+  <img src="/.assets/images/rat-spinning.gif" width="50"> # NRC 2026: Micromouse Challenge   
+> **The official SIUE Automous Robotics Club Github repostiory for the 2026 NRC Micromouse Competition**
 </p>
 
-# NRC 2026: Micromouse Challenge   
-> **The official SIUE Automous Robotics Club Github repostiory for the 2026 NRC Micromouse Competition**
+
 
 [![Competition](https://img.shields.io/badge/Competition-NRC_2026-red)](https://irp.cdn-website.com/9297868f/files/uploaded/NRCContestRules2026.pdf)
 [![Platform](https://img.shields.io/badge/Platform-ESP32-blue)](https://randomnerdtutorials.com/getting-started-with-esp32/)
