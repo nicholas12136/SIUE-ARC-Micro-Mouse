@@ -1,4 +1,4 @@
-# ![Micromouse Design Diagram](./Assets/images/rat-spinning-copy.gif) NRC 2026: Micromouse Challenge
+#  NRC 2026: Micromouse Challenge   ![Micromouse Design Diagram](./Assets/images/rat-spinning.gif)
 > **The official SIUE Automous Robotics Club Github repostiory for the 2026 NRC Micromouse Competition**
 
 [![Competition](https://img.shields.io/badge/Competition-NRC_2026-red)](https://irp.cdn-website.com/9297868f/files/uploaded/NRCContestRules2026.pdf)
