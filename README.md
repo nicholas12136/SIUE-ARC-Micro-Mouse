@@ -25,7 +25,7 @@ Our team is developing an autonomous "Mouse" to compete in the **National Roboti
 | :--- | :--- | :--- |
 | 🧠 | [`/algorithms`](./algorithms) | Maze-solving logic (Flood Fill, DFS). |
 | 🔌 | [`/firmware`](./firmware) | ESP32 source code & PID control. |
-| 🏗️ | [`/hardware`](./hardware) | Fusion 360 CAD & PCB Schematics. |
+| 🏗️ | [`/hardware`](./hardware) | CAD & PCB Schematics. |
 | 📊 | [`/simulations`](./simulations) | Logic testing environments. |
 | 📋 | [`/doc`](./doc) | NRC Rules & Engineering Notebook. |
 | ☁️ | **[OneDrive Hub]** | [**Click here for OneDrive**](https://siuecougars-my.sharepoint.com/:f:/r/personal/ngarmon_siue_edu/Documents/ARC/Micro%20Mouse?csf=1&web=1&e=Olx0Ui) |
