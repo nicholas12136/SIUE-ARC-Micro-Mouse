@@ -1,7 +1,7 @@
 <table border="0">
   <tr>
     <td valign="center">
-      <img src="./assets/images/rat-spinning.gif" width="100">
+      <img src=".assets/images/rat-spinning.gif" width="100">
     </td>
     <td>
       <h1>NRC 2026: Micromouse Challenge</h1>
