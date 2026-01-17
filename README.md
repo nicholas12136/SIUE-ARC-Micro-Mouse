@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="/.assets/images/rat-spinning.gif" width="50"> # NRC 2026: Micromouse Challenge   
+  <img src="/.assets/images/rat-spinning.gif" width="50"> <NRC 2026: Micromouse Challenge> 
 > **The official SIUE Automous Robotics Club Github repostiory for the 2026 NRC Micromouse Competition**
 </p>
 
