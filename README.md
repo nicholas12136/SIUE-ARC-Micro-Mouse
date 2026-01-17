@@ -21,7 +21,7 @@ Our team is developing an autonomous "Mouse" to compete in the **National Roboti
 * **Staring Place:** Mouse will always start in one of the four corners.
 * **Finish Line:** Goal is to end up in the four-tile room int the middle.
 
-![Micromouse Design Diagram](./assets/images/NRC_maze_example.png)
+![Micromouse Design Diagram](./Assets/images/NRC_maze_example.png)
 
 ---
 
