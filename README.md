@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/badge/Danger-!!!-purple)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 <p align="center">
-  <img src="/.assets/images/rat-spinning.gif" width="600">
+  <img src="/.assets/images/rat-spinning.gif" width="50">
 </p>
 
 ---
