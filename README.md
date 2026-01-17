@@ -27,7 +27,7 @@
 ---
 
 ## 📌 Project Overview
-Our team is developing an autonomous "Mouse" to compete in the **National Robotics Challenge**. The robot must navigate a $10 \times 10$ unit square maze, mapping the environment in real-time to find the fastest path to the center.
+Our team is developing an autonomous "Mouse" to compete in the **National Robotics Competition**. The robot must navigate a $10 \times 10$ unit square maze, mapping the environment in real-time to find the fastest path to the center.
 
 ### 📐 Competition Constraints (NRC Rules)
 * **Mouse Size:** Max $7" \times 7" \times 7"$.
