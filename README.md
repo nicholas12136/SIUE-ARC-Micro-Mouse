@@ -45,8 +45,6 @@ Our team is developing an autonomous "Mouse" to compete in the **National Roboti
   <img src=".assets/images/NRC_maze_example.png" width="600">
 </p> 
 
-
-![Micromouse Design Diagram]
 > *Example maze provided in 2026 NRC Contest Manual.*
 ---
 
