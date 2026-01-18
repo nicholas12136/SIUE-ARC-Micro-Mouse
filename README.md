@@ -77,7 +77,7 @@ We are currently iterating on two main logic paths:
 
 ---
 
-## 🏁 Development Setu
+## 🏁 Development Setup
 
 <details>
 <summary><b>Click to expand: Software Installation</b></summary>
@@ -87,6 +87,9 @@ We are currently iterating on two main logic paths:
 3. **Clone the Repo:**
    ```bash
    git clone [https://github.com/](https://github.com/)[your-username]/[your-repo-name].git
+
+
+
 
 ---
 
@@ -98,7 +101,7 @@ We are currently iterating on two main logic paths:
       <img src=".assets/images/mazev1.png" width="100%">
     </td>
     <td width="50%" align="center">
-      <video src=".assets/images/mouse-running.mp4" width="100%" controls muted>
+      <video src=".assets/images/mouse-running.mp4" width="75%" controls muted>
         Your browser does not support the video tag.
       </video>
     </td>
