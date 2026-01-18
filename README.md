@@ -95,10 +95,10 @@ We are currently iterating on two main logic paths:
 <table border="0">
   <tr>
     <td width="50%" align="center">
-      <img src="./assets/images/mazev1.jpg" width="100%">
+      <img src=".assets/images/mazev1.png" width="100%">
     </td>
     <td width="50%" align="center">
-      <video src="./assets/images/mouse-running.mp4" width="100%" controls muted>
+      <video src=".assets/images/mouse-running.mp4" width="100%" controls muted>
         Your browser does not support the video tag.
       </video>
     </td>
@@ -112,3 +112,7 @@ We are currently iterating on two main logic paths:
     </td>
   </tr>
 </table>
+
+<p align="center">
+  <img src=".assets/images/mazev1.png" width="600">
+</p> 
