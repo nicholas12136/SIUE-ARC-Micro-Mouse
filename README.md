@@ -48,6 +48,7 @@ Our team is developing an autonomous "Mouse" to compete in the **National Roboti
 * Has a hollow center, i.e., the center peg has no walls attached to it
 * Has walls attached to every peg except the center peg
 * Is unsolvable by a wall-following robot 
+
 **Time Criteria:**
 * If a robot re-enters the start square before entering the destination square on a run that run is aborted and a new run will begin with a new time that starts when the starting square is exited.
 * The robot may, after reaching the destination square, continue to navigate the maze for as long
