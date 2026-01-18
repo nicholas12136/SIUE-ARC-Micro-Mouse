@@ -85,8 +85,7 @@ We are currently iterating on two main logic paths:
 1. **Install VS Code**
 2. **Install PlatformIO Extension** (for ESP32 development).
 3. **Clone the Repo:**
-   ```bash
-   git clone [https://github.com/](https://github.com/)[your-username]/[your-repo-name].git```
+   ```bash git clone [https://github.com/](https://github.com/)[your-username]/[your-repo-name].git
 
 ---
 
@@ -98,9 +97,8 @@ We are currently iterating on two main logic paths:
       <img src=".assets/images/mazev1.png" width="100%">
     </td>
     <td width="50%" align="center">
-      <video src=".assets/images/mouse-running.mp4" width="75%" controls muted>
-        Your browser does not support the video tag.
-      </video>
+      <img src=".assets/images/mouse-running.gif" width="100%">
+      </img>
     </td>
   </tr>
   <tr>
@@ -112,7 +110,3 @@ We are currently iterating on two main logic paths:
     </td>
   </tr>
 </table>
-
-<p align="center">
-  <img src=".assets/images/mazev1.png" width="600">
-</p> 
