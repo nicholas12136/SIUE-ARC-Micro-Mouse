@@ -40,9 +40,10 @@ Our team is developing an autonomous "Mouse" to compete in the **National Roboti
 <details>
 <summary><b>Click for more extensive rules</b></summary>
 
+
 **Maze Criteria:**
 * No inaccessible locations
-* Mouse will always start in one of the four corners
+* Mouse will always start in one of the four corners 
 * Exactly three starting walls
 * Only one entrance to the center, , multiple paths to the destination square are allowed and are to be expected
 * Has a hollow center, i.e., the center peg has no walls attached to it
@@ -50,10 +51,35 @@ Our team is developing an autonomous "Mouse" to compete in the **National Roboti
 * Is unsolvable by a wall-following robot 
 
 **Time Criteria:**
+* The run timer will start when the front edge of the robot crosses the start line and stops when
+the front edge of the robot crosses the finish line
 * If a robot re-enters the start square before entering the destination square on a run that run is aborted and a new run will begin with a new time that starts when the starting square is exited.
 * The robot may, after reaching the destination square, continue to navigate the maze for as long
 as their total maze time allows. The time taken will not count toward any run.
+* If an operator touches the robot during a run, it is
+deemed aborted, and the robot must be removed from the maze.
+* If a robot has already crossed the finish line, it may be removed at any time without affecting the
+run time of that run
 * The minimum run time shall be the robot's official time (Dash Attempt).
+
+**Scoring Criteria:**
+* Robots that do not enter the center square will be ranked by the maximum number of cells they
+consecutively transverse without being touched. However, judges are not required to give any
+rankings to robots who do not finish and may declare no winners or declare less than three
+winners at their discretion.
+
+**Alteration Criteria:**
+* After the maze is disclosed, the operator shall not feed information on the maze into the robot.
+However, switch positions may be changed for the purpose of changing programs within the
+robot (changing algorithms is allowed)
+* A contestant may not alter a robot in a manner that alters its weight
+* contestants are allowed to:
+a. Change switch settings (e.g., to change algorithms)
+b. Replace batteries between runs
+c. Adjust sensors
+d. Change speed settings
+e. Make repairs 
+
 </ul>
 </details>
  
