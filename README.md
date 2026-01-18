@@ -73,12 +73,7 @@ winners at their discretion.
 However, switch positions may be changed for the purpose of changing programs within the
 robot (changing algorithms is allowed)
 * A contestant may not alter a robot in a manner that alters its weight
-* contestants are allowed to:
-a. Change switch settings (e.g., to change algorithms)
-b. Replace batteries between runs
-c. Adjust sensors
-d. Change speed settings
-e. Make repairs 
+* contestants are allowed to: Change switch settings (e.g., to change algorithms), replace batteries between runs, adjust sensors, change speed settings, make repairs 
 
 </ul>
 </details>
