@@ -4,7 +4,7 @@ import random
 
 def generate_and_save_maze(filename="random_test.maz", width=10, height=10):
     # 1. Define the specific target directory
-    target_dir = r"C:\Users\npg20\Documents\ARC\Micromouse\mms\mazes"
+    target_dir = r" *INSERT PATH TO generated_mazes FOLDER* "
     
     # 2. Ensure the directory exists (creates it if it doesn't)
     if not os.path.exists(target_dir):
