@@ -111,7 +111,7 @@ robot (changing algorithms is allowed)
 We are currently iterating on two main logic paths:
 
 -  **Flood Fill:** A form of Breadth-First Searching, it works by "pouring water" from the goal to the start, assigning distance values to cells. The mouse then moves toward lower-value cells, effectively calculating the shortest path. ([**Video explanation**](https://www.youtube.com/watch?v=ktn3C7aXVR0))
--  **Depth-First Search:** Explores as far as possible along each branch before backtracking. It is "blind" to the shortest path until it has explored all options. Great for mapping an entire maze because it forces the mouse to explore every nook and cranny, but it is high unlikely to find the shortest path on the first try.
+-  **Depth-First Search (Recursive Backtracking):** Explores as far as possible along each branch before backtracking. It is "blind" to the shortest path until it has explored all options. Great for mapping an entire maze because it forces the mouse to explore every nook and cranny, but it is high unlikely to find the shortest path on the first try.
 
 ---
 
