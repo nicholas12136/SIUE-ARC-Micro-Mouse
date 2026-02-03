@@ -88,14 +88,14 @@ robot (changing algorithms is allowed)
 
 ## Repository Structure
 
-| Icon | Folder | Purpose |
-| :--- | :--- | :--- |
-| 🧠 | [`/algorithms`](./algorithms) | Maze-solving logic (Flood Fill, DFS). |
-| 🔌 | [`/firmware`](./firmware) | ESP32 source code & PID control. |
-| 🏗️ | [`/hardware`](./hardware) | CAD & PCB Schematics. |
-| 📊 | [`/simulations`](./simulations) | Logic testing environments. |
-| 📋 | [`/doc`](./doc) | NRC Rules & Engineering Notebook. |
-| 🪟 | **[OneDrive Hub]** | [**Click here for OneDrive**](https://siuecougars-my.sharepoint.com/:f:/r/personal/ngarmon_siue_edu/Documents/ARC/Micro%20Mouse?csf=1&web=1&e=Olx0Ui) |
+| Folder | Purpose |
+| :--- | :--- |
+| [`/algorithms`](./algorithms) | Maze-solving logic (Flood Fill, DFS). |
+| [`/firmware`](./firmware) | ESP32 source code & PID control. |
+| [`/hardware`](./hardware) | CAD & PCB Schematics. |
+| [`/simulations`](./simulations) | Logic testing environments. |
+| [`/doc`](./doc) | NRC Rules & Engineering Notebook. |
+| **[OneDrive Hub]** | [**Click here for OneDrive**](https://siuecougars-my.sharepoint.com/:f:/r/personal/ngarmon_siue_edu/Documents/ARC/Micro%20Mouse?csf=1&web=1&e=Olx0Ui) |
 
 ---
 
