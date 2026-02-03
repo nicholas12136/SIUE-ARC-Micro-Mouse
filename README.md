@@ -45,8 +45,8 @@ Our team is developing an autonomous "Mouse" to compete in the **National Roboti
 * No inaccessible locations
 * Mouse will always start in one of the four corners 
 * Exactly three starting walls
-* Only one entrance to the center, , multiple paths to the destination square are allowed and are to be expected
-* Has a hollow center, i.e., the center peg has no walls attached to it
+* Only one entrance to the center, multiple paths to the destination square are allowed and are to be expected
+* Has a hollow center, i.e. the center peg has no walls attached to it
 * Has walls attached to every peg except the center peg
 * Is unsolvable by a wall-following robot 
 
