@@ -1,0 +1,50 @@
+Micromouse: Encoder Integration & Motor Control
+===============================================================================
+1. Hardware Overview
+The micromouse uses the following key components for motor control and position tracking:
+•	Microcontroller: ESP32-WROOM-32
+•	Motor Driver: L298N dual H-bridge
+•	Motors: GA12-N20 DC gear motors (12V, 50:1 reduction ratio)
+•	Encoders: Quadrature encoders built into the GA12-N20 motors (7 pulses per revolution)
+•	Power: 12.6V LiPo (3S)
+
+2. How Encoders Work
+Encoders are sensors attached to the motor shaft that output pulses as the shaft rotates. Each pulse represents a small, known rotation of the wheel. By counting these pulses we can determine how far each wheel has traveled.
+Our encoders are quadrature type, meaning they have two channels (A and B) that produce pulses offset from each other. This allows detection of both rotation speed and direction. Theoretically, with 7 pulses per revolution and a 50:1 gear ratio, the encoder should produce 7 × 4 × 50 = 1,400 counts per wheel revolution in full quadrature mode.
+Important discovery: At motor operating speeds, software-based interrupt handlers could not keep up with the encoder pulses, causing massive pulse loss. We switched to the ESP32’s built-in PCNT (Pulse Counter) hardware peripheral, which counts pulses in hardware without CPU involvement. This resolved the missed pulse problem.
+
+3. What We Have Accomplished
+3.1 Encoder Calibration
+We use a single-channel PCNT configuration on encoder channel A, counting both rising and falling edges. This gives us reliable counts at operating speed. By physically rolling the mouse exactly 10 inches and reading the encoder counts, we established the following calibration:
+•	Counts per 10 inches: 590 counts (averaged across 5 trials)
+•	Operating speed target: ~22 counts per 10ms per motor
+
+3.2 Velocity PID Control
+Each motor has its own independent PI controller (Proportional-Integral) running every 10ms. The controller measures how many encoder counts accumulated in the last 10ms, compares that to the target speed, and adjusts the motor PWM accordingly. This keeps both motors running at matched speeds regardless of load differences between them.
+•	kP = 0.5 (proportional gain — reacts to current speed error)
+•	kI = 0.005 (integral gain — corrects steady-state difference between motors)
+•	PWM floor: 30 (minimum power to keep motors moving)
+The two motors have different physical characteristics and require different PWM values to reach the same speed. The PI controller handles this automatically by converging each motor independently to its own steady-state PWM.
+
+3.3 Straight Line Validation
+The mouse has been tested on the ground running for 1.5 seconds at approximately 45–50% of maximum operating speed. With minor per-motor target speed trimming to compensate for motor mismatch, the mouse drives in a reasonably straight line. This validates that the velocity PID foundation is working correctly.
+4. What We Plan to Do Next
+
+4.1 Cell-Based Distance Control
+The standard micromouse maze is made up of 18cm × 18cm cells (approximately 10 inches). Rather than stopping at each cell, the mouse will run at a constant velocity and use encoder counts to know when it has traveled one cell length. When the cumulative encoder count reaches 590 counts, the mouse has traveled approximately 10 inches and can trigger a turn or continue straight.
+This approach is preferred over stop-and-go movement because it is faster, smoother, and avoids the compounding position errors that come from repeated acceleration and braking cycles.
+
+4.2 Wall Sensing
+Infrared or time-of-flight sensors will be added to detect maze walls. These sensors will provide real-time feedback to keep the mouse centered in the corridor and to detect when a turn or dead end is ahead. Wall sensing works alongside the velocity PID — the PID keeps speed constant while the sensors handle steering corrections.
+
+4.3 Turn Control
+Accurate 90° and 180° turns will be implemented using differential encoder counts. By running the motors in opposite directions for a calibrated number of encoder counts, the mouse can rotate precisely in place. This will be implemented as a position-based PD controller separate from the velocity PID used for straight-line movement.
+
+4.4 Maze Solving Algorithm
+Once reliable movement and sensing are in place, a maze solving algorithm (such as flood fill) will be implemented to map and solve the maze. The mouse will first explore the maze at reduced speed to build a map, then re-run the shortest discovered path at higher speed (the “dash attempt”).
+
+5. Key Technical Lessons Learned
+•	Software interrupt handlers cannot keep up with encoder pulses at motor speed — always use hardware counters (PCNT) on the ESP32.
+•	Calibrate at operating speed, not by hand — encoder counts at motor speed differ from hand-rolled counts due to signal quality differences.
+•	Two motors always have slightly different characteristics — independent PI controllers on each motor handle this naturally without manual tuning of individual PWM values.
+•	Velocity control is more important than position control for a micromouse — keeping both wheels at the same speed prevents drift, while wall sensors handle centering.
